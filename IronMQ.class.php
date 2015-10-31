@@ -151,7 +151,7 @@ class IronMQ extends IronCore
     );
 
     const LIST_QUEUES_PER_PAGE = 30;
-    const GET_MESSAGE_TIMEOUT  = 60;
+    const GET_MESSAGE_TIMEOUT  = 120;
     const GET_MESSAGE_WAIT     = 0;  // Seconds to wait until request finds a Message (Max is 30)
 
     /**
